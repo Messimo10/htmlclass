@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+    <p>
+      HTML forms are essential for collecing and procesing user input on web
+      pages.
+    </p>
+    <form action="https://eldohub.co.ke" method="POST" enctype="">
+      <!--
+            Form attributes
+            -action: Specifies the URL where the form data will be the sent.
+            -method: Determines how the form data is sent. Common values are GRT and POST
+            -enctype: Specifies how form data should be encoded whwn it is sent to the server. It isparticularly important when uploading files or sending non-textual data.
+           -->
+      <br />
+      <br />
+      <label for="fullname">Your Name</label>
+      <input type="text" id="fullname" name="fullname" />
+      <br />
+      <br />
+      <label for="personal-email">Email</label>
+      <input type="email" id="personal-email" name="personal-email" />
+      <br />
+      <br />
+      <label for="yob">Year of birth</label>
+      <input type="number" name="yob" id="yob" />
+      <br />
+      <br />
+      <label for="pass">Password</label>
+      <input type="password" name="pass" id="pass" />
+      <br />
+      <br />
+      <label for="">Gender</label>
+      <input type="radio" name="Gender" id="male" value="mume" />
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="female" value="kike" />
+      <label for="female">Female</label>
+
+      <input type="file" name="profileimage" id="profileimage" />
+
+      <input type="submit" value="Login" />
+
+      <!--
+           
+               Form element attributes 
+               -type: Proivdes input validation features on the browser/client side
+               -name: Identifies the form data for server-side processing.
+               -id: Assigns a unique identifier to elements.
+               -for: used to assign a label to an input element (the value should match the inputs id value) 
+               -->
+    </form>
+
+    <a href="https:youtube.com"> Youtube</a>
+    <!-- trigger a http GET request-->
+
+    <!-- HTTP Methods --- GET , POST, PUT, PAtch, DELETE -->
+  </body>
+</html>
